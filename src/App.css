@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+#cardstyle{
+  width: 10rem;
+}
+/* system ui font (typed in oxygen)!*/
+body{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 2rem;
+  
+}
+/* setting wrapper display*/
+/* autofits from 12rem to 16rem length [probably look up more about it]*/
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem)); 
+}
+
+/* working on card element */
+.card{ 
+  overflow: hidden;
+  box-shadow: 0 2px 20px grey; 
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer; /* want an interactive card */
+  transition: transform 200ms ease-in; /* hover effect */
+
+}
+
+/* resizing image of each card */
+.img-resize{
+  height: 12rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-title{
+  padding:1rem;
+}
+
+.card-text{
+  padding:0 1rem;
+}
+
+/* more button customizations */
+.card-btn{
+  padding: 1rem;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 1rem;
+  border: 2px solid #3C6997;
+  background: transparent;
+  color: #3C6997;
+  border-radius: 0.2rem;
+  transition: background 200ms ease-in, color 200ms ease-in;
+}
+
+/* hover effect for card btn*/ 
+.card-btn:hover{ 
+  transform:scale(1.02);
+  background: #3C6997;
+  color: white;
+}
+
