@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import IDCard from './components/IDCards';
 // import Data from './Data.json'; // make sure you manually input it here since its not a js file
