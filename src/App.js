@@ -13,14 +13,14 @@ function App() {
         <section className="row row-cols-sm-2
         row-cols-lg-3"> {/* max of 2 columns per row at small viewport, 3 cols at lg viewport*/}
         <section className="col">
-          <IDCard iname="The Everyday Salad" iimage = {"ccs.jpg"} idesc = "Take your boring salads up a knotch. This recipe is perfect for lunch and only contains 5 ingredients." 
+          <IDCard iname="The Everyday Salad" iimage = {"imgs/ccs.jpg"} imgalt= {"ccs.jpg"} idesc = "Take your boring salads up a knotch. This recipe is perfect for lunch and only contains 5 ingredients." 
           />
         </section>
         <section className="col">
-          <IDCard iname="Classic Korean Bibimbap" iimage = {"simplebibimbap.jpeg"} idesc = "A combination of the korean words for mixing (bibim) and rice (bap), bibimbap calls for combining rice with an assortment of vegetables."/>
+          <IDCard iname="Classic Korean Bibimbap" iimage = {"imgs/simplebibimbap.jpeg"} imgalt= {"bibim.jpg"} idesc = "A combination of the korean words for mixing (bibim) and rice (bap), bibimbap calls for combining rice with an assortment of vegetables."/>
         </section>
         <section className="col">
-          <IDCard iname="Creamy Tomato Pasta" iimage = {"creamy.jpg"} idesc = "A simple and delicious meal made from scratch with a cream and tomato based sauce that is rich and silky smooth. "/>
+          <IDCard iname="Creamy Tomato Pasta" iimage = {"imgs/creamy.jpg"} imgalt= {"creamy.jpg"} idesc = "A simple and delicious meal made from scratch with a cream and tomato based sauce that is rich and silky smooth. "/>
         </section>
         </section>
       </div>
@@ -30,14 +30,14 @@ function App() {
         row-cols-sm-2 
         row-cols-lg-3"> 
          <section className="col"> {/*shows up as 3 columns since there can a max of 12 in a view port */}
-          <IDCard iname="Easy Tofu Pudding" iimage = {"tofuPudding.jpg"} idesc = "Tofu pudding is a delicious Asian dessert made from soy milk. The pudding is often made using a coagulant, usually GDL. to congeal the soy milk." 
+          <IDCard iname="Easy Tofu Pudding" iimage = {"imgs/tofuPudding.jpg"} imgalt= {"tofupud.jpg"} idesc = "Tofu pudding is a delicious Asian dessert made from soy milk. The pudding is often made using a coagulant, usually GDL. to congeal the soy milk." 
           />
           </section>
           <section className="col">
-            <IDCard iname="Matcha Souffle Pancakes" iimage = {"souffle.jpg"} idesc = "They're super airy and fluffy like you're eating cottony clouds with a special touch of Japanese flavor! "/>
+            <IDCard iname="Matcha Souffle Pancakes" iimage = {"imgs/souffle.jpg"} imgalt= {"souffle.jpg"} idesc = "They're super airy and fluffy like you're eating cottony clouds with a special touch of Japanese flavor! "/>
           </section>
           <section className="col">
-            <IDCard iname="Japanese Fruit Sandwich" iimage = {"fruitsandwich.jpg"} idesc = "For these sweet sandwiches, we embed juicy seasonal resh fruit in chilled whipped cream between 2 slices of pillowy Japanese milk bread." />
+            <IDCard iname="Japanese Fruit Sandwich" iimage = {"imgs/fruitsandwich.jpg"} imgalt= {"fruitsando.jpg"} idesc = "For these sweet sandwiches, we embed juicy seasonal resh fruit in chilled whipped cream between 2 slices of pillowy Japanese milk bread." />
           </section>
         </section>
       </div>
